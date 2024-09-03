@@ -1,0 +1,40 @@
+body{
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    color:rgb(218, 91, 0);
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: bold;
+     letter-spacing: 0.6rem;
+     text-shadow: 5px 5px 2px black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    width: 80vw;
+    height: 40vh;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    
+}
+.count{
+    width: 20vw;
+    height: 5vh;
+    margin:2% 15% 0% 35%;
+    cursor: pointer;
+}
+.display{
+    font-size: 2rem;
+    color: coral;
+   margin-left: 34%;
+   margin-top: 5%;
+}
+.count:active{
+    background-color: rgb(180, 255, 180);
+}
